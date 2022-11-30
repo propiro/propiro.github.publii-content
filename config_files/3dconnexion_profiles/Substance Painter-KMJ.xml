@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<AppCfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Default="false" CfgFormatVersion="1.3" ThisFileVersion="1.14">
+  <AppInfo>
+    <Signature>
+      <Name>Substance Painter</Name>
+      <ExecutableName>Substance Painter.exe</ExecutableName>
+    </Signature>
+    <Options />
+  </AppInfo>
+  <CfgProperties>
+    <ID>ID_Substance Painter</ID>
+    <Name>Substance Painter</Name>
+    <InheritsFromID>ID_Default_KMJ_Cfg</InheritsFromID>
+  </CfgProperties>
+  <Devices>
+    <Device>
+      <ID>ID_ProductID_C629</ID>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_11</ActionID>
+          </Input>
+          <Output>
+            <ActionID>KB_Ctrl</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
+  </Devices>
+  <AuthorInfo>
+    <DriverVersion>17.8.11.19837</DriverVersion>
+    <LastChange>
+      <Tool>3DxSmartUI.exe</Tool>
+      <Version>1.2.22333.19801</Version>
+      <Date>11/30/2022 7:42:55 PM UTC</Date>
+      <User>piro</User>
+    </LastChange>
+  </AuthorInfo>
+</AppCfg>
